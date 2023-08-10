@@ -59,6 +59,7 @@ h1{
 .clock .ampm{
   font-size: 1.8rem;
   letter-spacing: 0.2rem;
+  text-transform: uppercase;
   font-weight: 600;
   height: 3rem;
   width: 6rem;
