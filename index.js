@@ -10,7 +10,6 @@ function updateClock() {
   let ampm = 'AM';
   if (hour > 12) {
     hour = hour - 12;
-    console.log(hour);
     ampm = 'pm';
   }
   hoursElm.innerText = hour > 9 ? hour : '0' + hour;
