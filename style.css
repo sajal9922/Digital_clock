@@ -67,3 +67,23 @@ h1{
  position: absolute;
  bottom: 0;
 }
+
+@media (max-width:600px){
+  h1{
+    font-size: 1.3rem;
+  }
+  .clock span{
+    width: 7rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+  .clock .text{
+    font-size: 1rem;
+    height: 2rem;
+  }
+  .clock .ampm{
+    font-size: 1.3rem;
+    height: 2rem;
+    width: 4rem;
+  }
+}
